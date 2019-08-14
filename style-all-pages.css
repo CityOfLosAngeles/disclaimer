@@ -1,0 +1,15 @@
+body{
+    font-size:17px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+    color: rgb(0, 112, 201);
+}
+
+@media (prefers-color-scheme: dark) {
+    body{background:  rgb(22, 23, 22); color: rgb(215, 215, 216);}
+    a{
+        color: rgb(102, 187, 255);
+    }
+}
